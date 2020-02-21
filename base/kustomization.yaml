@@ -1,0 +1,7 @@
+commonLabels:
+  author: kellen
+
+configMapGenerator:
+  - name: global-config
+    literals:
+      - MESSAGE=hello
